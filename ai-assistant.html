@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Farming Assistant | Smart Farmers Hub Uganda</title>
+    <meta name="theme-color" content="#2E7D32" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Smart Farmers Hub Uganda"
+    />
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/icons/logo.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loading-screen"><div class="loader"></div></div>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2"
+          href="index.html"
+          ><img
+            src="./assets/icons/logo.svg"
+            alt="Smart Farmers Hub Uganda logo"
+            width="42"
+            height="42"
+          /><span class="brand-title">Smart Farmers Hub Uganda</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marketplace.html">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="farmers.html">Farmers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="buyers.html">Buyers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="weather.html">Weather</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="ai-assistant.html"
+                >AI Assistant</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tracking.html">Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-primary btn-sm ms-lg-2"
+                id="themeToggle"
+              >
+                <i class="fas fa-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="chat-window">
+              <h2 class="section-title">AI Farming Assistant</h2>
+              <div class="chat-bubble">
+                Hello! Ask me about planting, pests, weather, or market timing.
+              </div>
+              <div class="chat-bubble">
+                How can I protect my tomatoes from disease?
+              </div>
+              <div class="chat-bubble">
+                Use mulch, prune affected leaves, and avoid watering late in the
+                evening.
+              </div>
+              <div class="chat-input mt-4">
+                <input placeholder="Type your farming question..." /><button
+                  class="btn btn-primary"
+                >
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="glass-card p-4">
+              <h3 class="text-success">Popular AI Questions</h3>
+              <ul>
+                <li>Best time to plant maize</li>
+                <li>How to manage pests naturally</li>
+                <li>What crops fit current weather?</li>
+                <li>How do I price produce competitively?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3">
+            <h5 class="text-white">Smart Farmers Hub Uganda</h5>
+            <p>
+              Premium agricultural trade, weather intelligence, AI support, and
+              delivery solutions.
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-white">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-white">Contact</h6>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-phone me-2"></i>+256 774 488 714</li>
+              <li>
+                <i class="fas fa-envelope me-2"></i>laetitiantole554@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-white">QR Code</h6>
+            <img src="assets/images/qr.svg" alt="QR code" width="120" />
+          </div>
+        </div>
+        <hr class="border-secondary mt-4" />
+        <p class="text-center mb-0">© 2026 Smart Farmers Hub Uganda</p>
+      </div>
+    </footer>
+    <a href="#" class="back-to-top" aria-label="Back to top"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
